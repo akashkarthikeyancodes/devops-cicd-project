@@ -12,41 +12,7 @@ The Docker image is then deployed and run on an AWS EC2 instance.
 
 ## 🏗️ Architecture
 
-```text
-Developer
-    │
-    │ git push
-    ▼
-GitHub Repository
-    │
-    │ GitHub Webhook
-    ▼
-Jenkins
-    │
-    ├── Checkout Source Code
-    │
-    ├── Build Docker Image
-    │
-    ├── Authenticate with Amazon ECR
-    │
-    └── Push Docker Image
-             │
-             ▼
-       Amazon ECR
-             │
-             │ docker pull
-             ▼
-          AWS EC2
-             │
-             ▼
-       Docker Container
-             │
-             ▼
-        Nginx Web Server
-             │
-             ▼
-       Web Application
-```
+![Project Architecture](./architecture.png)
 
 ## 🛠️ Technologies Used
 
