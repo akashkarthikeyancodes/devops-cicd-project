@@ -12,7 +12,7 @@ The Docker image is then deployed and run on an AWS EC2 instance.
 
 ## 🏗️ Architecture
 
-![Project Architecture](./architecture.png)
+![Project Architecture](./Architecture.png)
 
 ## 🛠️ Technologies Used
 
