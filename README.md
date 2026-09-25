@@ -12,6 +12,7 @@ The Docker image is then deployed and run on an AWS EC2 instance.
 
 ## 🏗️ Architecture
 
+```text
 Developer
     │
     │ git push
@@ -45,8 +46,7 @@ Jenkins
              │
              ▼
        Web Application
-
----
+```
 
 ## 🛠️ Technologies Used
 
